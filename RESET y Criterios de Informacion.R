@@ -39,7 +39,7 @@
 library(lmtest)
 
 # Base de datos
-data <- read.csv("D:/alex_/Documents/UNAM/6to Semestre/Taller/Bases de datos/consumo_fun.csv", header = T, sep = ",")
+data <- read.csv("./consumo_fun.csv", header = T, sep = ",")
 attach(data)
 # View(data)
 
