@@ -32,7 +32,7 @@ library(urca)
 
 
 # Cargar base de datos
-data <- read.csv("D:/alex_/Documents/UNAM/6to Semestre/Taller/Bases de datos/Gas.csv", header = T, sep = ",")
+data <- read.csv("./Gas.csv", header = T, sep = ",")
 attach(data)
 View(data)
 
